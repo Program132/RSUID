@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RSUID - Roblox Studio UI Designer</title>
+        <link rel="stylesheet" href="./src/css/default.css">
+        <link rel="stylesheet" href="./src/css/objects.css">
+    </head>
+
+    <body>
+        <div id="toolbar">
+            <button onclick="resetEngine()">Reset</button>
+            <button onclick="createTextLabel('Hello World')">Add TextLabel</button>
+        </div>
+
+        <div id="tool">
+            <div id="properties">
+                <h1>Properties</h1>
+            </div>
+
+            <div id="engine">
+                <div id="canvas">
+                </div>
+            </div>
+
+            <div id="explorer">
+                <h1>Explorer</h1>
+            </div>
+        </div>
+
+        <script src="./src/js/createTextLabel.js"></script>
+        <script src="./src/js/resetEngine.js"></script>
+    </body>
+</html>
